@@ -15,4 +15,11 @@ There will be an option to view a Class Report which will show all the informati
      
 The goal of the company is to deliver a high-end quality product as early as possible. 
 
+ Output windows
  
+<img width="680" alt="2" src="https://user-images.githubusercontent.com/111715453/202592837-d5158cc8-d754-4dc1-b628-f2eea07bd753.png">
+<img width="903" alt="3" src="https://user-images.githubusercontent.com/111715453/202592848-8793f6b3-18eb-41ff-b024-ea3982990fd6.png">
+<img width="368" alt="4" src="https://user-images.githubusercontent.com/111715453/202592866-ad075773-1297-4dfe-bcf5-4da0ba46a01b.png">
+<img width="376" alt="6" src="https://user-images.githubusercontent.com/111715453/202592877-fd11cbc6-16cb-4adf-8191-24a8c321fc46.png">
+<img width="404" alt="8" src="https://user-images.githubusercontent.com/111715453/202592890-6377fd2b-8298-4747-ad7f-88d875e71b10.png">
+<img width="494" alt="9" src="https://user-images.githubusercontent.com/111715453/202592901-3fa6d216-fb72-44dd-bcdb-133494a6f828.png">
