@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping package="com.simplilearn.model">
+	
+	<class name="student" table="STUDENT_DETAILS">
+
+		<id name="sid" column="SID" type="int">	
+		<generator class="increment" />	
+		</id>	
+	 	
+		<property name="sfname"  column="SFNAME" />
+		<property name="slname"  column="SLNAME"/>
+		
+		<many-to-one name="Classes" class="classes" column="cid"/>
+		
+	</class>
+</hibernate-mapping>						
+
+

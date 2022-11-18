@@ -1,0 +1,57 @@
+
+create database Adminportal;
+
+Use Adminportal;
+CREATE TABLE LOGIN_DETAILS(
+     	EMAIL varchar (255),
+     	PASSWORD varchar (255)
+     );
+     
+
+select * from LOGIN_DETAILS;
+INSERT INTO LOGIN_DETAILS VALUES( 'admin@learnersacademy.com','admin123');
+
+CREATE TABLE SUBJECT_DETAILS(
+     	SID int(5) NOT NULL primary key, 
+		SNAME varchar(20)  DEFAULT NULL, 
+		SHORTCODE varchar(20) DEFAULT NULL
+     );
+     
+select * from  SUBJECT_DETAILS;
+
+CREATE TABLE CLASS_DETAILS(
+     	CID int(5) NOT NULL primary key, 
+		CNAME varchar(200)  DEFAULT NULL, 
+		CSHORTCODE varchar(200) DEFAULT NULL
+     );
+select * from  CLASS_DETAILS;
+
+CREATE TABLE TEACHER_DETAILS(
+     	TID int(5) NOT NULL primary key, 
+		TFNAME varchar(200)  DEFAULT NULL, 
+		TSNAME varchar(200) DEFAULT NULL
+     );
+     select * from  TEACHER_DETAILS;
+     
+CREATE TABLE CLASSES_SUBJECTS(
+        CLASS_NAME varchar (255) NOT NULL ,
+     	SUBJECT_NAME varchar (255) NOT NULL 
+     );
+     
+     select * from CLASSES_SUBJECTS;
+     
+     CREATE TABLE STUDENT_details(
+     	SID int(5) NOT NULL primary key, 
+		SFNAME varchar(200)  DEFAULT NULL, 
+		SLNAME varchar(200) DEFAULT NULL,
+        CID int(5) NOT NULL 
+     );
+     
+     select * from STUDENT_details;
+     
+     CREATE TABLE TEACHERS_SUBJECTS(
+     	SUBJECT_NAME varchar (255) NOT NULL ,
+        TEACHER_NAME varchar (255) NOT NULL
+     );
+     
+     select * from TEACHERS_SUBJECTS;
