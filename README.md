@@ -15,6 +15,15 @@ There will be an option to view a Class Report which will show all the informati
      
 The goal of the company is to deliver a high-end quality product as early as possible. 
 
+Steps for set up
+1.First set up the database with the query givern in the SQL Query file
+2.Run on Server
+3.Add Subjects, classes and teachers
+4.Assign subjects to classes
+5.Assign teachers to subjects
+6.Add Student
+7.Generate Report
+
  Output windows
  
 <img width="680" alt="2" src="https://user-images.githubusercontent.com/111715453/202592837-d5158cc8-d754-4dc1-b628-f2eea07bd753.png">
